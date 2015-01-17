@@ -1,0 +1,16 @@
+name = Rock River Star RTE
+description = Optimized rich text editor configuration
+core = 7.x
+package = Content Authoring
+version = 7.x-1.0beta1
+project = rrs_rte
+dependencies[] = ckeditor_link
+dependencies[] = features
+dependencies[] = media
+dependencies[] = token_filter
+dependencies[] = wysiwyg
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = limited_html
+features[wysiwyg][] = filtered_html
+features[wysiwyg][] = limited_html

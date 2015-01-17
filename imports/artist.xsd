@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="artists">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="artist" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="guid" type="xs:string"/>
+            <xs:element name="ARTIST_ID" type="xs:string"/>
+            <xs:element name="FIRST_NAME" type="xs:string"/>
+            <xs:element name="LAST_NAME" type="xs:string"/>
+            <xs:element name="BIRTHPLACE" type="xs:string"/>
+            <xs:element name="FIRST_ADDRESS1" type="xs:string"/>
+            <xs:element name="FIRST_ADDRESS2" type="xs:string"/>
+            <xs:element name="FIRST_CITY" type="xs:string"/>
+            <xs:element name="FIRST_STATE" type="xs:string"/>
+            <xs:element name="FIRST_ZIP" type="xs:string"/>
+            <xs:element name="FIRST_COUNTRY" type="xs:string"/>
+            <xs:element name="PHONE1" type="xs:string"/>
+            <xs:element name="PHONE2" type="xs:string"/>
+            <xs:element name="FAX" type="xs:string"/>
+            <xs:element name="EMAIL" type="xs:string"/>
+            <xs:element name="URL" type="xs:string"/>
+            <xs:element name="BIO" type="xs:string"/>
+            <xs:element name="NOTES" type="xs:string"/>
+            <xs:element name="IMAGE_NAME" type="xs:string"/>
+            <xs:element name="ICON_ART_ID" type="xs:string"/>
+            <xs:element name="FEATURED" type="xs:string"/>
+            <xs:element name="date_created" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
