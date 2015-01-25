@@ -1,0 +1,25 @@
+name = Joshua
+description = Joshua is a custom theme for Joshuas Events, a caterer in the philadelphia area
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/theme.css
+
+scripts[] = js/main.js
+
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer
+
+
+; Information added by drupal.org packaging script on 2011-11-02
+version = "7.x-1.0"
+core = "7.x"
+project = "fasterone"
+datestamp = "1320214533"
+
